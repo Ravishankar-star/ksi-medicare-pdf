@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KSI Plus — Catalogue (Realistic)</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#004C97; --aqua:#00B0F0; --navy:#0d1b2a; --muted:#f3f7fb;
+    --page-w:210mm; --page-h:297mm;
+  }
+  *{box-sizing:border-box}
+  body{background:#e7eef7; padding:20px; font-family:Poppins,system-ui,Arial;}
+  .sheet{width:var(--page-w); height:var(--page-h); margin:10px auto; background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 10px 30px rgba(15,30,60,0.12); position:relative;}
+  .header{display:flex;justify-content:space-between;align-items:center;padding:28px 36px;background:linear-gradient(90deg,#f8fbff,#eef6ff);}
+  .logo{display:flex;align-items:center;gap:14px}
+  .logo img{height:56px}
+  .catalog-title{font-weight:700;color:var(--navy); font-size:20px; letter-spacing:1px}
+  .cover-hero{height:220px;margin:24px 36px;border-radius:12px;background:linear-gradient(120deg,var(--navy),#073a6b); position:relative; overflow:hidden}
+  .cover-hero::after{content:"";position:absolute; right:24px; bottom:-20px;width:360px;height:360px;border-radius:50%; background:rgba(255,255,255,0.06)}
+  .cover-center{text-align:center;color:#fff;padding:36px}
+  .cover-center h1{font-size:34px;margin-bottom:10px;letter-spacing:2px}
+  .cover-center p{max-width:700px;margin:0 auto;color:#dbeeff}
+  /* Product section */
+  .section{padding:28px 36px; display:flex; gap:24px; align-items:flex-start}
+  .product-photo{width:50%; border-radius:10px; overflow:hidden; box-shadow:0 10px 30px rgba(5,20,40,0.18)}
+  .product-photo img{width:100%; height:100%; object-fit:cover; display:block}
+  .product-info{width:50%; background:var(--muted); padding:20px; border-radius:10px; box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+  .product-info h2{color:var(--blue); font-size:20px; margin-bottom:6px}
+  .product-info .lead{color:#24314a; margin-bottom:12px; line-height:1.5}
+  .specs{display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:12px}
+  .spec-card{background:#fff;padding:10px;border-radius:8px;box-shadow:0 3px 8px rgba(10,20,40,0.06); font-size:13px}
+  .spec-card strong{color:var(--navy)}
+  /* accessories / lists with icons */
+  .list{margin-top:14px}
+  .list-item{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
+  .icon{width:34px;height:34px;border-radius:8px;background:linear-gradient(180deg,var(--aqua),var(--blue));display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0}
+  .list-item p{margin:0;font-size:13px;color:#1f2b40}
+  /* footer */
+  .footer{position:absolute;left:36px;right:36px;bottom:22px;background:linear-gradient(90deg,var(--blue),#d81e05);color:#fff;padding:10px 16px;border-radius:8px;display:flex;justify-content:space-between;align-items:center;font-size:13px}
+  /* page number small */
+  .pagenum{font-weight:600}
+  /* responsive print-friendly */
+  @media print{
+    body{background:none}
+    .sheet{box-shadow:none;border-radius:0; margin:0}
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo"><img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"><div style="font-size:13px;color:#445b7a">K. Swaranraj Inc.</div></div>
+    <div class="catalog-title">Hospital Equipment Catalogue — 2025</div>
+  </div>
+
+  <div class="cover-hero">
+    <div class="cover-center">
+      <h1>KSI PLUS</h1>
+      <p>Complete Hospital Equipment Solutions — Operation Theatre Tables, Hospital Beds, CSSD, Oxygen Plants & Accessories</p>
+    </div>
+  </div>
+
+  <div style="padding:20px 36px 100px 36px;text-align:center;color:#556a85;font-size:13px">
+    <em>Premium quality medical equipment crafted for performance, durability and patient safety.</em>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — K. Swaranraj Inc. | ‪+91 98154 53531‬ | ksimedicare@gmail.com</div>
+    <div class="pagenum">Cover</div>
+  </div>
+</section>
+
+<!-- OPERATION THEATRE TABLE (uses one of your links as hero) -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo"><img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"><div style="font-size:12px;color:#445b7a">Operation Theatre Tables</div></div>
+    <div style="font-size:13px;color:#445b7a">KSI-201/ORT/EH</div>
+  </div>
+
+  <div class="section">
+    <div class="product-photo">
+      <img src="https://devinemeditech.com/assets/image/hospital/hospital%20furniture4.jpg" alt="Operation Table">
+    </div>
+
+    <div class="product-info">
+      <h2>Operation Theatre Table — Electro-Hydraulic</h2>
+      <div class="lead">The operation theatre table represents the cutting edge of surgical support technology — electro-hydraulic system, C-arm compatibility and modular upgrades for future needs.</div>
+
+      <div class="specs">
+        <div class="spec-card"><strong>Length</strong><div>2070 mm</div></div>
+        <div class="spec-card"><strong>Width</strong><div>520 mm</div></div>
+        <div class="spec-card"><strong>Height</strong><div>690 - 1120 mm</div></div>
+        <div class="spec-card"><strong>Trendelenburg</strong><div>30° / 26°</div></div>
+      </div>
+
+      <div class="list">
+        <div class="list-item"><div class="icon">⚙</div><p><strong>Control of the table:</strong> Smooth electro-hydraulic motion with low vibration & energy-efficient electronics.</p></div>
+        <div class="list-item"><div class="icon">🔧</div><p><strong>Optional Accessories:</strong> Orthopaedic attachments, neurosurgery attachment, S.S. urology tray.</p></div>
+        <div class="list-item"><div class="icon">✅</div><p><strong>Standard Accessories:</strong> Rubber mattress set, anaesthetist screen, arm rest.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — Operation Theatre Tables</div>
+    <div class="pagenum">Page 01</div>
+  </div>
+</section>
+
+<!-- CSSD / Autoclave (using your links) -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo"><img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"></div>
+    <div class="catalog-title">CSSD & Sterilization Equipment</div>
+  </div>
+
+  <div class="section">
+    <div class="product-photo">
+      <img src="https://img.medicalexpo.com/images_me/photo-g/70387-8022703.jpg" alt="Autoclave / CSSD">
+    </div>
+
+    <div class="product-info">
+      <h2>Autoclaves & Washer-Disinfectors</h2>
+      <div class="lead">Comprehensive sterilization solutions — horizontal & vertical autoclaves, washer-disinfectors and pass-through sterilizers built to hospital standards.</div>
+
+      <div class="specs">
+        <div class="spec-card"><strong>Range</strong><div>Horizontal / Vertical / Pass-through</div></div>
+        <div class="spec-card"><strong>Capacity</strong><div>Varies (100–1000 L)</div></div>
+        <div class="spec-card"><strong>Material</strong><div>Stainless Steel, high grade</div></div>
+        <div class="spec-card"><strong>Standards</strong><div>ISO / CE compatible options</div></div>
+      </div>
+
+      <div class="list">
+        <div class="list-item"><div class="icon">🧪</div><p><strong>Features:</strong> Programmable cycles, safety interlocks, energy efficient steam generation.</p></div>
+        <div class="list-item"><div class="icon">🔌</div><p><strong>Optional:</strong> Steam generator, loading trolleys.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — CSSD Equipment</div>
+    <div class="pagenum">Page 02</div>
+  </div>
+</section>
+
+<!-- HOSPITAL BEDS (uses provided images) -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo"><img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"></div>
+    <div class="catalog-title">Hospital Beds & ICU</div>
+  </div>
+
+  <div class="section">
+    <div class="product-photo">
+      <img src="https://www.medik-medical.com/data/watermark/20201012/5f8400848bde2.jpg" alt="ICU Bed / Electric Bed">
+    </div>
+
+    <div class="product-info">
+      <h2>ICU Electric Beds</h2>
+      <div class="lead">Advanced ICU beds with multi-function electronics, ABS panels and epoxy powder-coated steel frames for durability and hygiene.</div>
+      <div class="specs">
+        <div class="spec-card"><strong>Functions</strong><div>Height, Back, Knee, Trendelenburg</div></div>
+        <div class="spec-card"><strong>Panels</strong><div>ABS Head/Foot panels</div></div>
+        <div class="spec-card"><strong>Finish</strong><div>Epoxy powder coated steel</div></div>
+        <div class="spec-card"><strong>Accessories</strong><div>IV Pole, Side Rails</div></div>
+      </div>
+
+      <div class="list">
+        <div class="list-item"><div class="icon">🛏</div><p><strong>Material:</strong> Epoxy powder-coated frame for corrosion resistance.</p></div>
+        <div class="list-item"><div class="icon">🔩</div><p><strong>Extras:</strong> Overbed tables, lockable castors.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — Hospital Beds</div>
+    <div class="pagenum">Page 03</div>
+  </div>
+</section>
+
+<!-- ACCESSORIES (trolley, panels, generator images you gave) -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo"><img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"></div>
+    <div class="catalog-title">Accessories & Consumables</div>
+  </div>
+
+  <div class="section" style="align-items:flex-start;">
+    <div style="width:48%; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+      <div style="border-radius:8px;overflow:hidden;"><img src="https://d3edssu4vf7j1p.cloudfront.net/images/blog/102/medical_equipment_list.png?t=1752582772" alt="Accessories" style="width:100%;height:100%;object-fit:cover"></div>
+      <div style="border-radius:8px;overflow:hidden;"><img src="https://www.imanimgplaceholder.invalid/unused.jpg" alt="placeholder" style="width:100%;height:100%;object-fit:cover"></div>
+      <div style="border-radius:8px;overflow:hidden;"><img src="https://coastalpowerandequipment.com/assets/images/content/hospital.jpg" alt="Generator" style="width:100%;height:100%;object-fit:cover"></div>
+      <div style="border-radius:8px;overflow:hidden;"><img src="https://cpimg.tistatic.com/11275501/b/4/Hospital-Bed-Abs-Panel..webp" alt="ABS Panels" style="width:100%;height:100%;object-fit:cover"></div>
+    </div>
+
+    <div class="product-info" style="width:50%">
+      <h2>Medical Trolleys & Accessories</h2>
+      <div class="lead">Trolleys, bedside cabinets, suction units and all consumables — designed for hospital workflows and sterilization protocols.</div>
+
+      <div class="list">
+        <div class="list-item"><div class="icon">🧰</div><p>Medicine trolleys with stainless steel tops and lockable drawers.</p></div>
+        <div class="list-item"><div class="icon">⚙</div><p>ABS head & foot panels, IV poles & overbed tables.</p></div>
+        <div class="list-item"><div class="icon">🔋</div><p>Hospital generator and backup power options for critical care.</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — Accessories</div>
+    <div class="pagenum">Page 04</div>
+  </div>
+</section>
+
+<!-- BACK COVER -->
+<section class="sheet">
+  <div class="header">
+    <div class="logo">
+        <img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" alt="KSI Plus"><div style="font-size:12px;color:#445b7a">K. Swaranraj Inc.</div></div>
+    <div style="font-size:13px;color:#445b7a">Contact</div>
+  </div>
+
+  <div style="padding:50px 36px; text-align:center;">
+    <img src="https://i.ibb.co/zH0BB4HH/file-00000000816c7208b09655b6ebd0d87a.png" style="height:110px" alt="KSI Plus">
+    <h2 style="color:var(--navy); margin-top:16px">Thank you for reviewing KSI Plus Catalogue</h2>
+    <p style="color:#4b5f7a; max-width:760px; margin:18px auto">For enquiries: +91 98154 53531 | ksimedicare@gmail.com | SCO 270, Cabin B2, Sector 14, Panchkula</p>
+
+    <div style="margin-top:28px;display:flex;justify-content:center;gap:18px;align-items:center">
+      <div style="width:110px;height:110px;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.12)"><img src="https://i.ibb.co/kVWpQJsy/Screenshot-20251112-110417-Whats-App-Business.jpg" alt="QR" style="width:100%;height:100%;object-fit:cover"></div>
+      <div style="text-align:left;color:#4b5f7a">
+        <div style="font-weight:700;color:var(--blue)">Scan for full products range</div>
+        <div style="font-size:13px">All product specs, manuals & images</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>KSI Plus — K. Swaranraj Inc.</div>
+    <div class="pagenum">Back</div>
+  </div>
+</section>
+
+</body>
+</html>
